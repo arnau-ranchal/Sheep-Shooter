@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{044B02B1-150C-B955-5ABE-5F72889C84AE}</ProjectGuid>
+    <ProjectGuid>{C41ACA88-7385-7D96-7C0A-F14A89B3E6A7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,13 +59,14 @@
     <Compile Include="Assets\RW\Scripts\DestroyOnTrigger.cs" />
     <Compile Include="Assets\RW\Scripts\Rotate.cs" />
     <Compile Include="Assets\RW\Scripts\HayMachine.cs" />
+    <Compile Include="Assets\RW\Scripts\score.cs" />
+    <Compile Include="Assets\RW\Scripts\Upgrades.cs" />
+    <Compile Include="Assets\RW\Scripts\Upgrades_params.cs" />
     <Compile Include="Assets\RW\Scripts\Move.cs" />
     <Compile Include="Assets\RW\Scripts\SheepSpawner.cs" />
-    <Compile Include="Assets\RW\Scripts\Sheep.cs" />
     <Compile Include="Assets\RW\Scripts\Menu.cs" />
-    <Compile Include="Assets\RW\Scripts\score.cs" />
-    <Compile Include="Assets\Upgrades.cs" />
-    <Compile Include="Assets\RW\Scripts\Upgrades_params.cs" />
+    <Compile Include="Assets\RW\Scripts\Sheep.cs" />
+    <Compile Include="Assets\RW\Scripts\BackToMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

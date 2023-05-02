@@ -584,8 +584,18 @@ MonoBehaviour:
   - {fileID: 1209175548}
   - {fileID: 1108578686}
   - {fileID: 692125245}
-  sheepBar: []
-  movBar: []
+  sheepBar:
+  - {fileID: 269172902}
+  - {fileID: 73160660}
+  - {fileID: 930253366}
+  - {fileID: 191212944}
+  - {fileID: 1268443876}
+  movBar:
+  - {fileID: 2061061977}
+  - {fileID: 1780707309}
+  - {fileID: 615575273}
+  - {fileID: 1584668988}
+  - {fileID: 415175206}
 --- !u!1 &415175206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,7 +1197,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 368168353}
         m_TargetAssemblyTypeName: Upgrades, Assembly-CSharp
-        m_MethodName: shoot
+        m_MethodName: mov
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2140,7 +2150,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 368168353}
         m_TargetAssemblyTypeName: Upgrades, Assembly-CSharp
-        m_MethodName: shoot
+        m_MethodName: sheep
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
